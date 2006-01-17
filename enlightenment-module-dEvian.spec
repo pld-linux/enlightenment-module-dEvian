@@ -3,7 +3,7 @@
 %define		_module_name_lc	devian
 
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl):	Modu³ Enlightenmenta DR17: kalendarz
+Summary(pl):	Modu³ Enlightenmenta DR17: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
 Version:	0.1.1
 Release:	1
@@ -24,6 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A module to display images on your desktop.
+
+%description -l pl
+Modu³ do wy¶wietlania obrazków na pulpicie.
 
 %prep
 %setup -q -n %{_module_name}-%{version}
