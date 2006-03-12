@@ -5,12 +5,12 @@
 Summary:	Enlightenment DR17 module: %{_module_name}
 Summary(pl):	Modu³ Enlightenmenta DR17: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
-Version:	0.1.1
+Version:	0.1.7
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://www.get-e.org/Resources/Modules/_files/%{_module_name}-%{version}.tar.gz
-# Source0-md5:	c904d7baedb9ffa18da7fae0b907bb2e
+# Source0-md5:	f2462a43cab4eab1045500c0246dbf61
 URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
