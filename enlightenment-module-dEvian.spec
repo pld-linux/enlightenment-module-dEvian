@@ -3,7 +3,7 @@
 %define		_module_name_lc	devian
 
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl):	Modu≥ Enlightenmenta DR17: %{_module_name}
+Summary(pl.UTF-8):   Modu≈Ç Enlightenmenta DR17: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
 Version:	0.1.7
 Release:	1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A module to display images on your desktop.
 
-%description -l pl
-Modu≥ do wy∂wietlania obrazkÛw na pulpicie.
+%description -l pl.UTF-8
+Modu≈Ç do wy≈õwietlania obrazk√≥w na pulpicie.
 
 %prep
 %setup -q -n %{_module_name}-%{version}
