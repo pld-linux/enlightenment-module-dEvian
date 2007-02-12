@@ -3,7 +3,7 @@
 %define		_module_name_lc	devian
 
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: %{_module_name}
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
 Version:	0.1.7
 Release:	1
